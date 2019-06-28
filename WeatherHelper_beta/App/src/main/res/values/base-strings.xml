@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ Copyright 2013 The Android Open Source Project
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+
+<resources>
+    <string name="app_name">WeatherHelper</string>
+    <string name="intro_message">
+        <![CDATA[
+        Este aplivativo possibilita ao usuário monitorar o clima, mais precisamente variáveis de
+        UMIDADE e TEMPERATURA, com o auxílio do Arduino e seu módulo de Umidade e Temperatura.
+        Para iniciar o monitormento, será necessário conectar ao módulo bluetooth
+        do Arduino. Apos isso, o App estará apto para apresentar dicas de saúde de acordo com o clima.
+        
+        ]]>
+    </string>
+
+    <string name="intro_message_temp_More_39">
+        <![CDATA[
+            NÍVEL DE TEMPERATURA CRÍTICO\n\n
+                        >>39°\n\n
+
+
+            *Dano(os) que podem ser causados à saúde*\n\n
+
+            -Hipertermia;\n
+             -Exaustão;\n
+             -Febre;\n
+             -Morte\n\n
+
+                     *Prevenção*\n\n
+
+            -Ligar ar condicionado e diminuir bastante a temperatura;\n
+           - Ventilar o corpo;\n
+            -Evitar exercícios físicos;\n
+           - Tomar banho de água gelada, mas não tanto que cause choque térmico;\n
+            -Evitar exercícios físicos e muitos movimentos.\n\n
+
+        ]]>
+    </string>
+
+
+    <string name="intro_message_temp_More_32_38">
+        <![CDATA[
+              **NÍVEL DE TEMPERATURA POSSIVELMENTE PREJUDICIAL**\n\n
+                                32~38\n\n
+            (Umidade muito baixa causa esfriamento do corpo).\n
+            (Umidade muito alta intensifica os mesmos riscos apresentados).\n\n
+
+
+                *Dano(os) que podem ser causados à saúde.*\n\n
+
+            -Alterar a pressão arterial, a espessura do sangue,
+             as taxas de colesterol e a frequência cardíaca;\n
+            -Hipertemia;\n
+            -Exaustão;\n
+            -Febre.\n\n
+
+
+                *Prevenção*\n\n
+            -Ligar ar condicionado (caso conste)\n
+            -Use roupas mais folgadas; Ventilar o corpo.\n
+        ]]>
+    </string>
+
+    <string name="intro_message_temp_More_23_30">
+        <![CDATA[
+                ** TEMPERATURA NORMAL :) **\n\n
+                        23°~30°\n\n
+                    APROVEITE PARA O ROLÊ !!
+
+                    ]]>
+    </string>
+
+    <string name="intro_message_temp_between_17_22">
+        <![CDATA[
+              **NÍVEL DE TEMPERATURA ABAIXO DO NORMAL **\n\n
+
+                            17° ~ 22°\n\n
+            (Umidade muito alta, ainda sentirá calor).\n
+            (Umidade muito baixa, intensifica os mesmos riscos apresentados)\n\n
+
+
+                *Dano(os) que podem ser causados à saúde.*\n\n
+
+            -Hipotermia;\n
+            -Problemas respiratórios; \n
+            -Lesões: nariz, orelhas, dedos dos pés e das mãos.\n\n
+
+
+                *Prevenção*\n\n
+            - roupas adequadas ao frio;\n
+            -Realize atividades físicas; \n
+            -Cobrir a cabeça. Evitar roupas molhadas\n
+        ]]>
+    </string>
+
+    <string name="intro_message_temp_less_16">
+        <![CDATA[
+              **NÍVEL DE TEMPERATURA CRÍTICA **\n\n
+
+                            <<16°\n\n
+
+
+                *Dano(os) que podem ser causados à saúde.*\n\n
+
+                -Hipotermia;
+                -Formigamento ou queimação\n
+                 em determinada parte\n
+                 do corpo; Paralisia cerebral.\n\n
+
+                *Prevenção*\n\n
+
+                -Usar roupas adequadas ao frio,
+                faz-se necessário ter uma vestimenta que cubra a cabeça.
+                Aumentar a quantidade de luz em casa. Tomar banho de água quente,
+                mas não tanto para evitar choque térmico. Beber bebidas quentes,
+                mas não tanto para evitar choque térmico.\n
+
+
+
+        ]]>
+    </string>
+
+
+    <string name="intro_message_humid_more_85">
+        <![CDATA[
+              **NÍVEL DE HUMIDADE CRÍTICA **\n\n
+
+                            >>85%°\n\n
+
+
+                *Dano(os) que podem ser causados à saúde.*\n\n
+
+
+                -Fungos, ácaros, mofos;\n
+                -Crises de espirros;\n
+                -Dificuldades respiratórias.\n\n
+
+                *Prevenção*\n\n
+
+               -Ligar desumidificador do ar condicionado;\n
+               -Ventilar os ambientes (abrir janelas, ligar ventiladores);\n
+                              -
+
+        ]]>
+    </string>
+
+    <string name="intro_message_humid_between_70_85">
+        <![CDATA[
+              **NÍVEL DE UMIDADE ACIMA DO NORMAL **\n\n
+
+                            70% ~ 85%°\n\n
+
+
+                *Dano(os) que podem ser causados à saúde.*\n\n
+
+                -Interferência no mecanismo de transpiração que ajuda
+                a regular a temperatura do corpo\n
+                -Hipotermia;\n
+                -Formigamento ou queimação\n
+                 em determinada parte\n
+                 do corpo; Paralisia cerebral.\n\n
+
+                *Prevenção*\n\n
+
+                -Ventilar os ambientes (abrir janelas,
+                 ligar ventiladores)\n\n
+
+
+
+        ]]>
+    </string>
+
+    <string name="intro_message_humid_between_40_70">
+        <![CDATA[
+              **UMIDADE NORMAL**\n\n
+
+                      40% ~ 70%°\n\n
+
+                   APROVEITE PARA O ROLÊ !!
+
+
+        ]]>
+    </string>
+
+    <string name="intro_message_himid_between_20_40">
+        <![CDATA[
+              **NÍVEL DE UMIDADE ABAIXO DO NORMAL **\n\n
+
+                            <<20% ~ 40%\n\n
+
+
+                *Danos que podem ser causados à saúde.*\n\n
+
+
+              -Provocação do ressecamento das mucosas das vias aéreas \n
+              (Pessoa se torna mais vulnerável a crises de asma
+              e a infecções virais e bacterianas);\n
+              -Desidratação;\n
+              -Problemas oculares e alergias.\n\n
+
+
+                *Prevenção*\n\n
+
+                -Ligue os ventiladores de teto para cima,
+                pois ligados para baixo,
+                levantam a poeira que se mistura no ar que você vai respirar; \n
+                -Pôr toalhas molhadas,
+                recipientes com água ou vaporizadores nos aposentos; \n
+                -Mantenha a casa sempre limpa e arejada,
+                Consumir bastante água.\n\n
+
+
+        ]]>
+    </string>
+
+    <string name="intro_message_humid_less_20">
+        <![CDATA[
+              **NÍVEL DE UMIDADE CRÍTICA **\n\n
+
+                            <<20%\n\n
+
+
+                *Danos que podem ser causados à saúde.*\n\n
+
+                -Hipotermia;
+                -Formigamento ou queimação\n
+                 em determinada parte
+                 do corpo; Paralisia cerebral.\n\n
+
+                *Prevenção*\n\n
+
+                -Usar roupas adequadas ao frio,
+                faz-se necessário ter uma vestimenta que cubra a cabeça.
+                Aumentar a quantidade de luz em casa. Tomar banho de água quente,
+                mas não tanto para evitar choque térmico. Beber bebidas quentes,
+                mas não tanto para evitar choque térmico.\n\n
+
+
+        ]]>
+    </string>
+    <string name="intro_message_wanting">
+
+        AGUARDANDO OS DADOS DO SENSOR...
+
+    </string>
+
+
+    <string name="info_help_about_temp">
+        <![CDATA[
+            NÍVEL DE TEMPERATURA CRÍTICO\n\n
+                         >>39°\n\n
+
+
+            *Dano(os) que podem ser causados à saúde*\n\n
+
+            -Hipertermia;\n
+             -Exaustão;\n
+             -Febre;\n
+             -Morte.\n\n
+
+                     *Prevenção*\n\n
+
+            -Ligar ar condicionado e diminuir bastante a temperatura;
+           - Ventilar o corpo; Evitar exercícios físicos.
+           - Tomar banho de água gelada, mas não tanto que cause choque térmico;
+            -Evitar exercícios físicos e muitos movimentos.\n\n
+
+
+                 **NÍVEL DE TEMPERATURA POSSIVELMENTE PREJUDICIAL**\n\n
+                                32°~38°\n\n
+            (Umidade muito baixa causa esfriamento do corpo).\n
+            (Umidade muito alta intensifica os mesmos riscos apresentados).\n\n
+
+
+                 *Dano(os) que podem ser causados à saúde.*\n\n
+
+            -Alterar a pressão arterial, a espessura do sangue,
+             as taxas de colesterol e a frequência cardíaca;\n
+            -Hipertemia;\n
+            -Exaustão;\n
+            -Febre.\n\n
+
+
+                 *Prevenção*\n\n
+            -Ligar ar condicionado (caso conste);\n
+            -Use roupas mais folgadas; Ventilar o corpo.\n\n
+
+
+                 ** TEMPERATURA NORMAL :) **\n\n
+                         23°~30°\n\n
+                    APROVEITE A VIDA !!\n\n
+
+
+                **NÍVEL DE TEMPERATURA ABAIXO DO NORMAL **\n\n
+
+                            17° ~ 22°\n\n
+            (Umidade muito alta, ainda sentirá calor).\n
+            (Umidade muito baixa, intensifica os mesmos riscos apresentados)\n\n
+
+
+                *Dano(os) que podem ser causados à saúde.*\n\n
+
+            -Hipotermia;\n
+            -Problemas respiratórios; \n
+            -Lesões: nariz, orelhas, dedos dos pés e das mãos.\n\n
+
+
+                *Prevenção*\n\n
+            - roupas adequadas ao frio;\n
+            -Realize atividades físicas; \n
+            -Cobrir a cabeça. Evitar roupas molhadas.\n\n
+
+                **NÍVEL DE TEMPERATURA CRÍTICA **\n\n
+
+                            <<16°\n\n
+
+
+                    *Dano(os) que podem ser causados à saúde.*\n\n
+
+                -Hipotermia;\n
+                -Formigamento ou queimação
+                 em determinada parte
+                 do corpo;
+                 -Paralisia cerebral.\n\n
+
+                    *Prevenção*\n\n
+
+                -Usar roupas adequadas ao frio,\n
+                faz-se necessário ter uma vestimenta que cubra a cabeça.
+                Aumentar a quantidade de luz em casa. Tomar banho de água quente,
+                mas não tanto para evitar choque térmico. Beber bebidas quentes,
+                mas não tanto para evitar choque térmico.\n\n
+
+
+        ]]>
+    </string>
+
+
+
+    <string name="info_help_about_humid">
+         <![CDATA[
+
+         **NÍVEL DE HUMIDADE CRÍTICA **\n\n
+
+                            >>85%°\n\n
+
+
+                *Dano(os) que podem ser causados à saúde.*\n\n
+
+
+                -Fungos, ácaros, mofos;\n
+                -Crises de espirros;\n
+                -Dificuldades respiratórias.\n\n
+
+                *Prevenção*\n\n
+
+               -Ligar desumidificador do ar condicionado;\n
+               -Ventilar os ambientes (abrir janelas, ligar ventiladores);\n\n
+
+                 **NÍVEL DE UMIDADE ACIMA DO NORMAL **\n\n
+
+                            70% ~ 85%°\n\n
+
+
+                *Dano(os) que podem ser causados à saúde.*\n\n
+
+                -Interferência no mecanismo de transpiração que ajuda
+                a regular a temperatura do corpo\n
+                -Hipotermia;\n
+                -Formigamento ou queimação
+                 em determinada parte
+                 do corpo; Paralisia cerebral.\n\n
+
+                *Prevenção*\n\n
+
+                -Ventilar os ambientes (abrir janelas,
+                 ligar ventiladores\n\n
+
+                  **UMIDADE NORMAL**\n\n
+
+                            40% ~ 70%°\n\n
+
+                   APROVEITE PRO ROLÊ !!\n\n
+
+                    **NÍVEL DE UMIDADE ABAIXO DO NORMAL **\n\n
+
+
+                            <<20% ~ 40%\n\n
+
+
+                *Danos que podem ser causados à saúde.*\n\n
+
+
+              -Provocação do ressecamento das mucosas das vias aéreas
+              (Pessoa se torna mais vulnerável a crises de asma
+              e a infecções virais e bacterianas);\n
+              -Desidratação;\n
+              -Problemas oculares e alergias;\n\n
+
+
+                *Prevenção*\n\n
+
+                -Ligue os ventiladores de teto para cima,
+                pois ligados para baixo,
+                levantam a poeira que se mistura no ar que você vai respirar; \n
+                -Pôr toalhas molhadas,
+                recipientes com água ou vaporizadores nos aposentos; \n
+                -Mantenha a casa sempre limpa e arejada.
+                Consumir bastante água.\n\n
+
+                 **NÍVEL DE UMIDADE CRÍTICA **\n\n
+
+                            <<20%\n\n
+
+
+                *Danos que podem ser causados à saúde.*\n\n
+
+                -Hipotermia;
+                -Formigamento ou queimação
+                 em determinada parte do corpo;
+                 Paralisia cerebral.\n\n
+
+                *Prevenção*\n\n
+
+                -Usar roupas adequadas ao frio,
+                faz-se necessário ter uma vestimenta que cubra a cabeça.
+                Aumentar a quantidade de luz em casa. Tomar banho de água quente,
+                mas não tanto para evitar choque térmico. Beber bebidas quentes,
+                mas não tanto para evitar choque térmico.\n\n
+
+
+        ]]>
+    </string>
+</resources>
