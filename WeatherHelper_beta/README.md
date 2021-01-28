@@ -27,7 +27,7 @@ Pre-requisites
 Screenshots
 -------------
 
-!<img src="screenshots/01-circuit.PNG" height="400" alt="Screenshot"/> <img src="screenshots/02-launch.PNG" height="400" alt="Screenshot"/> <img src="screenshots/03-infos.PNG" !height="400" alt="Screenshot"/> 
+<img src="screenshots/01-circuit.PNG" height="400" alt="Screenshot"/> <img src="screenshots/02-launch.PNG" height="400" alt="Screenshot"/> <img src="screenshots/03-infos.PNG" height="400" alt="Screenshot"/> 
 
 
 License
