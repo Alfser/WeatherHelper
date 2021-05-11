@@ -29,11 +29,11 @@ by describing that to the user in case the climatic variable changes have been a
 ---
 # Screenshots
 
-[Circuit](./screenshots/circuit.PNG)
-[main](./screenshots/mainActivity.jpeg)
-[deviceList](./screenshots/btSearch.jpeg)
-[manu](./screenshots/menu.jpeg)
-[chart](./screenshots/chart.jpeg)
+![Circuit](./screenshots/circuit.PNG)
+![main](./screenshots/mainActivity.jpeg)
+![deviceList](./screenshots/btSearch.jpeg)
+![manu](./screenshots/menu.jpeg)
+![chart](./screenshots/chart.jpeg)
 
 ---
 # Android Apk
