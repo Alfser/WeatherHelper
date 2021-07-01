@@ -1,7 +1,7 @@
 
 # Android WeatherHelper Prototype
 
-This prototype shows how to implement a humidity and temperature monitor using Bluetooth comunication between two Android device and Arduino, using
+This prototype shows how to implement a humidity and temperature monitor using Bluetooth comunication between Android device and Arduino, using
 all the fundamental Bluetooth API capabilities.
 
 It was develop as a personal work of my Computer Engineer course at UNIVERSIDADE FEDERAL DO PARÁ (UFPA) .
